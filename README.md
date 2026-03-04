@@ -1,11 +1,11 @@
 # diwali-sales-analysis
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes Diwali retail sales data to identify revenue trends, customer purchasing behavior, and product performance using Python-based exploratory data analysis.
 
-## 🎯 Business Objectives
+## Business Objectives
 
 - Identify the most valuable customer age segment driving revenue.
 - Analyze regional performance to determine the highest revenue-contributing zones.
@@ -13,13 +13,13 @@ This project analyzes Diwali retail sales data to identify revenue trends, custo
 - Assess purchasing behavior differences between married and unmarried customers.
 
 
-## 📂 Dataset
+## Dataset
 
 - Source: (Mock dataset)
 - Rows: (11251)
 - Key Columns: 13 columns after data cleaning (User_ID, Gender, Age, Marital_Status, Occupation, Product_Category, Purchase, State, Zone)
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jupyter Notebook
 - Python
@@ -28,7 +28,7 @@ This project analyzes Diwali retail sales data to identify revenue trends, custo
 - Matplotlib
 
 
-## 🔎 Analysis Performed
+## Analysis Performed
 
 - Imported and configured essential Python libraries (Pandas, NumPy, Matplotlib, Seaborn)
 - Loaded and explored dataset structure (shape, head, info, descriptive statistics)
@@ -54,7 +54,7 @@ This project analyzes Diwali retail sales data to identify revenue trends, custo
 - Consolidated findings into strategic business insights and recommendations
 
 
-## 📊 Key Insights
+## Key Insights
 
  - The 26–35 age group dominates the customer base and leads in both total revenue (₹4.28 Cr+) and order volume, establishing it as the core revenue-driving segment.
  - Revenue is geographically concentrated, with UP leading at ₹1.9 Cr, and strong contributions from Maharashtra, Karnataka, and Delhi, while the Central zone emerges as the highest-performing region at ₹4.16 Cr.
@@ -63,14 +63,14 @@ This project analyzes Diwali retail sales data to identify revenue trends, custo
  - Gender-based purchasing behavior is largely similar, with minor differences in category preference (females leaning toward Footwear, males toward Electronics).
  - Unmarried customers contribute higher total revenue and order volume; however, average spend per order remains nearly identical across marital status, suggesting revenue differences are volume-driven rather than spending-intensity driven.
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 - Focus marketing on 26–35 age segment.
 - Strengthen Central zone operations due to dominant revenue contribution.
 - Expand Food category offerings as it is the primary revenue driver.
 - Target unmarried segment with retention campaigns due to higher order volume.
 
-## 📎 Files in This Repository
+## Files in This Repository
 
 - diwali_sales_analysis.ipynb – Complete exploratory data analysis notebook
 - Diwali_Sales_Data.csv – Dataset used for analysis
